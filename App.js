@@ -10,10 +10,11 @@ export default function App() {
     return (
       <View style={styles.activityIndicatorStyle}>
         <Image 
-        source={{
-          uri: 'https://afrikaminiature.com/wp-content/uploads/2021/04/Final-Logo-55.png',
-        }}
-        style={{ width: 150, height: 50, marginLeft:'auto', marginRight:'auto',width:'50%',marginBottom:'10%' }}
+        source={require('./assets/Splash-Afrika-Miniature.jpg')}
+        // source={{
+        //   uri: 'https://afrikaminiature.com/wp-content/uploads/2021/04/Final-Logo-55.png',
+        // }}
+        style={{ width: 161, height: 55, marginLeft:'auto', marginRight:'auto',marginBottom:'10%' }}
         />
         <ActivityIndicator color='gray' size='large' />
         <Text style={{textAlign:'center',marginTop:'5%'}}>Loading...</Text>
@@ -51,6 +52,7 @@ const styles = StyleSheet.create({
     right: 0,
     top: 0,
     bottom: 0,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor:'white'
   }
 });

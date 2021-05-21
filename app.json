@@ -1,7 +1,7 @@
 {
     "expo": {
-        "name": "african-miniature",
-        "slug": "african-miniature",
+        "name": "Afrikaminiature",
+        "slug": "Afrikaminiature",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/icon.png",
@@ -23,7 +23,8 @@
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#FFFFFF"
-            }
+            },
+            "package": "iamraufu.com.afrikaminiature"
         },
         "web": {
             "favicon": "./assets/favicon.png"
